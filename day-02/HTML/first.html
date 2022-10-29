@@ -5,8 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Day-02-CSS</title>
+    <link rel="stylesheet" href="/day-02/CSS/style.css" />
+
+    <style>
+      #name {
+        color: red;
+      }
+
+      h2{
+        color: aqua;
+      }
+
+      .c1{
+        color:cadetblue;
+      }
+
+      div p{
+        background-color: cadetblue;
+      }
+
+      div > p{
+        font-size:25px;
+      }
+
+    p::first-line{
+        color: wheat;
+    }
+
+    a:link{
+        color: blue;
+    }
+
+    a:hover{
+        color:red;
+    }
+
+    a:visited{
+        color:green;
+    }
+
+    a:active{
+        color:azure;
+    }
+
+    div{
+        margin: 20px;
+        padding: 50px;
+    }
+
+    </style>
   </head>
   <body>
-    <link rel="stylesheet" href="/day-02/CSS/style.css" />
-  </body>
+
+    <h1 style="color: blueviolet">Nice to meet you!</h1>
+    <!--inline styling has more preference than style.css -->
+
+    <h2 id="name">Hello!</h1>
+
+    <h2>Bonjour!</h2>
+
+    <h3 class="c1">Guten Morgan!</h3>
+    <h3 class="c1">Hola!</h3>
+
+    <!--same class name can work on multiple statement if we need changes over a block of statements-->
+    <!--if we use id, in js wehen we write getelementbyid, it will only affect the first instance and not the rest-->
+  
+    <div>
+        <p>1st paragraph.</p>
+        <p>2nd paragraph.</p>
+
+    <section>
+        <p>3rd paragraph.</p>
+    </section>
+    </div>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor odio et soluta magni praesentium nostrum, repellendus quae reprehenderit tempora necessitatibus amet illo omnis beatae nobis, ex quaerat consequuntur pariatur minus?</p>
+    
+    <a href="https://www.example.com">Click me!</a>
+
+   <!--Padding: inside space-->
+   <div>
+    <p>Hello</p>
+   </div>
+
+</body>
 </html>
