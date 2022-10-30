@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-03</title>
+    <style>
+      .flexb {
+        display: flex;
+        background-color: teal;
+        margin: 5px;
+        padding: 5px;
+        flex-direction: column;
+      }
+
+      .flexb > div {
+        background-color: black;
+        margin: 5px;
+        padding: 5px;
+      }
+
+      .flexbox {
+        display: flex;
+        background-color: teal;
+        margin: 5px;
+        padding: 15px;
+        flex-direction: row-reverse;
+      }
+
+      .flexbox > div {
+        background-color: black;
+        margin: 5px;
+        padding: 10px;
+      }
+
+      #main {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        width: 240px;
+        height: 300px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        border: 1px solid teal;
+        margin: 5px;
+    }
+
+      #main div {
+        width: 80px;
+        height: 60px;
+        padding: 10px;
+      }
+
+      #main1 {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        width: 240px;
+        height: 300px;
+        border: 1px solid teal;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+
+      #main1 div {
+        width: 80px;
+        height: 60px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexb">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+
+    <div class="flexbox">
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+    </div>
+
+    <div id="main">
+      <div style="background-color: palevioletred">A</div>
+      <div style="background-color:powderblue;">B</div>
+      <div style="background-color: cadetblue;">C</div>
+      <div style="background-color: teal;">D</div>
+      <div style="background-color: purple;">E</div>
+      <div style="background-color: paleturquoise;">F</div>
+
+    </div>
+
+    <div id="main1">
+        <div style="background-color: palevioletred">A</div>
+        <div style="background-color:powderblue;">B</div>
+        <div style="background-color: cadetblue;">C</div>
+  
+  </body>
+</html>
