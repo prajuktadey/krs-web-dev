@@ -10,6 +10,16 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 .navbar ul{
   overflow: auto;
 }
@@ -21,17 +31,15 @@
 }
 
 .navbar li a:hover{
-  color: cadetblue;
+  color: honeydew;
 }
 
 
 .button-01 {
   color: white;
   background-color: #181818;
-  border: 0.5px solid white;
-  margin: 1px 1px;
-  padding-top: 0%;
-  padding: 5px 50px;
+  border: 1.5px solid white;
+  padding: 19px 50px;
   cursor: pointer;
   font-size: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -67,20 +75,22 @@ p{
 .button2 {
   color: white;
   background-color: #4452fe;
+  border: 0.5px solid #181818;
   margin-top: 10px;
   margin-right: 50px;
-  padding-left: 250px;
+  padding: 20px 50px;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   justify-content: center;
 }
 
 .buttons {
+  padding: 20px 420px ;
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 20px;
   display:inline-block;
   align-items: center;
 }
@@ -88,10 +98,9 @@ p{
   .button3 {
     color: white;
     background-color: #181818;
-    border: 0.5px solid white;
+    border: 0.5px solid #181818;
     margin: 1px 1px;
-    padding-top: 0%;
-    padding-left: 250px;
+    padding: 20px 50px;
     cursor: pointer;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
