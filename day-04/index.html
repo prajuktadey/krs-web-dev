@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Javascript HTML DOM</h2>
+    <div id="main">
+      <p class="a">Finding HTML elements by Tag Name</p>
+      <p class="a">
+        This example demonstrates the <b>getElementbyTagName</b> method
+      </p>
+      <p class="a">Hello World!</p>
+    </div>
+    <p id="demo"></p>
+    <img
+      id="image"
+      src="https://images.unsplash.com/photo-1667502102937-6382343eed85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+    />
+
+    <script>
+      //document.getElementById("demo").innerHTML ="garbage"
+
+      //const x = document.getElementById("main");
+      //const y = x.getElementsByTagName("p");
+
+      //y[0].innerHTML = "change";
+      //y[0].innerHTML = y.length;
+
+      const z = document.getElementsByClassName("a");
+      z[1].innerHTML = "change";
+
+      for (var i = 0; i < z.length; i++) {
+        z[i].innerHTML = "change";
+      }
+
+      var obj = document.getElementById("image");
+      obj.src =
+        "https://images.unsplash.com/photo-1661961111184-11317b40adb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60";
+
+      obj.width = "340";
+    </script>
+  </body>
+</html>
